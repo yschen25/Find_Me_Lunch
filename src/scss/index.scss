@@ -1,0 +1,78 @@
+@import '~compass-mixins/lib/compass/_css3.scss';
+@import '~compass-mixins/lib/_animate.scss';
+
+body {
+    background: #c4e8f7;
+    font-family: "Open Sans", "Trebuchet MS", "Comic Sans MS", "Constantia", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    width: 334px;
+    height: 636px;
+    margin: 50px auto auto;
+    text-align: center;
+    position: relative;
+
+    .btn {
+        position: absolute;
+        bottom: 134px;
+        right: 129px;
+        cursor: pointer;
+    }
+}
+
+.alert {
+    width: 40%;
+    max-height: 200px;
+    background: #fff;
+    @include box-shadow (3px 3px 10px #8e8c8c);
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+
+        &:before {
+            font-family: FontAwesome;
+            content: "\f00d";
+            font-size: 1.5rem;
+            color: #636363;
+        }
+    }
+
+    p {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 80px;
+        line-height: 1.5;
+    }
+}
+
+.rotate {
+    @include animation (rotateBtn 1s);
+}
+
+@keyframes rotateBtn {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
