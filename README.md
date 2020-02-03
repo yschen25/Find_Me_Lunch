@@ -1,6 +1,6 @@
 # Find_Me_Lunch
 
-A small website to help you find out what you gonna eat
+A small website to help you find out what you gonna eat.
 <br/>
 
 ## Demo
