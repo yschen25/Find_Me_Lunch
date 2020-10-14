@@ -6,7 +6,7 @@ A small website to help you find out what you gonna eat.
 
 ## Demo
 
-### **[FIND ME LUNCH](http://www.yschen25.com/portfolio/findMeLunch/) -> Where You Can See the Website**
+### **[FIND ME LUNCH](https://yschen25.github.io/Find_Me_Lunch/) -> Where You Can See the Website**
 <br/>
 
 <p align="enter">
